@@ -72,7 +72,6 @@
         "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHJ676mgwe53bWey3qhP4TiKdc8b0fb/luQ6BqkjiRa1 crour@Argon"
       ];
       extraGroups = [ "wheel" ];
-      sudoPasswordless = true;
       packages = with pkgs; [];
     };
   };
